@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+* {
+  box-sizing: border-boxs;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-image: url("./crikcet.jpg");
+  min-height: 10vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-position: center center;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: normal;
+  margin-top: 1rem;
+}
+.countdown-container {
+  display: flex;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.contdown-el {
+  text-align: center;
+}
+
+.contdown-el span {
+  font-size: 1.5rem;
+}
